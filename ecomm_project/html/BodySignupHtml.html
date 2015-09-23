@@ -1,0 +1,21 @@
+<div id="body">
+
+<div  class="padding" align="center">
+<fieldset>
+
+ <legend><h2>SIGN-UP </h2></legend> 
+<form  action="bodySignup.php" method="POST" onsubmit="return myFunction()" >
+
+	<b>Email id : </b><input type="email" id="user_emailid" name="user_emailid"><br/>
+	<b>Password : </b><input type="password" id="user_password" name="user_password" required="required" ><br/>
+	<b>Re-Type password : </b><input type="password" id="user_repassword" name="user_repassword" required="required"><br/>
+	<input type="submit" value="add user" onclick="myFunction();">
+	<input type="button" value="cancel" >
+</form>
+<br/>
+<div id="errror_message"></div>
+
+</fieldset>
+</div>
+</div>
+

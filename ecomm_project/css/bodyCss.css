@@ -1,0 +1,16 @@
+#body
+{
+	
+	height:1900;
+	background-color:lightcyan;
+	padding:5px;
+	overflow:scroll;
+}
+
+.padding 
+{
+    padding-top: 400px;
+    padding-right: 50px;
+    padding-bottom: 400px;
+    padding-left: 50px;
+}

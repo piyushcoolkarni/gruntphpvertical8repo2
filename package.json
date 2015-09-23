@@ -1,0 +1,30 @@
+{
+  "name": "GrPhpEcom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-pdepend": "^0.1.2",
+    "grunt-php": "^1.5.1",
+    "grunt-phpcpd": "^0.1.4",
+    "grunt-phpcs": "^0.4.0",
+    "grunt-phpdocumentor": "^0.4.1",
+    "grunt-phplint": "0.0.5",
+    "grunt-phploc": "^0.1.3",
+    "grunt-phpmd": "^0.1.1",
+    "grunt-phpunit": "^0.3.6",
+    "grunt-sonar-runner": "^2.4.3",
+    "jshint-html-reporter": "^0.2.4"
+  }
+}
