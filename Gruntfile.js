@@ -147,6 +147,12 @@ phpcpd:
    
 },
 
+exec:
+   {
+   command:'php ./vendor/bin/phpcs --report=checkstyle --report-file=./reports/checkstyle.xml --standard=Zend ./ecomm_project/*.php'
+
+   },
+
 sonarRunner:
     {
    analysis: {
@@ -191,8 +197,9 @@ grunt.loadNpmTasks("grunt-phpcs");
 grunt.loadNpmTasks("grunt-contrib-jshint");
 grunt.loadNpmTasks("grunt-phpdocumentor");
 grunt.loadNpmTasks("grunt-sonar-runner");
+grunt.loadNpmTasks("grunt-exec");
  
-grunt.registerTask("default", ["phplint:good","phpmd","phploc","phpunit","phpcpd","phpcs","phpdocumentor"]);
+grunt.registerTask("default", ["phplint:good","phpmd","phploc","phpunit","phpcpd","phpcs","phpdocumentor","exec"]);
 
 grunt.registerTask("jstasks",["jshint","sonarRunner"]);
 
