@@ -151,7 +151,8 @@ phpcpd:
 
 exec:
    {
-   command:'php ./vendor/bin/phpcs --report=checkstyle --report-file=./reports/checkstyle.xml --standard=Zend ./ecomm_project/*.php'
+   command:'php ./vendor/bin/phpcs --report=checkstyle --report-file=./reports/checkstyle.xml --standard=Zend ./ecomm_project/*.php',
+   command:'php ./vendor/bin/phpcpd --names ./ecomm_project/*.php --log-pmd ./reports/phpcpd.xml --verbose'
 
    },
 
