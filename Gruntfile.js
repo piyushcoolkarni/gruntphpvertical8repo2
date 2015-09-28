@@ -76,8 +76,10 @@ default :
   bootstrap:'build/phpunit.xml',
   logJunit:'./reports/junit.log',
   logJson:'./reports/json.log',
-   coverageClover:'./reports/coverage.log',
-   textdoxHtml:'reports/phpunit.html'
+   coverageClover:'reports/coverageClover',
+   textdoxHtml:'reports/phpunit.html',
+   coveragePhp:'reports/coveragePhp',
+   coverageHtml:'reports/coverageHtml'
     }
     },
 
